@@ -1,0 +1,199 @@
+    * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html, body {
+            width: 100%;
+            height: 100%;
+        }
+
+        .header {
+            background-color: #131A22;
+            padding: 20px;
+            width: 100%;
+            display: flex;
+            align-items: center;
+            gap: 20px;
+        }
+
+        .image-scroller {
+            display: flex;
+            overflow-x: scroll;
+            scroll-snap-type: x mandatory;
+            scroll-behavior: smooth;
+            gap: 20px;
+            padding: 0px;
+        }
+
+        .background_image {
+            width: 90%;
+            margin-left: 5%;
+            flex: 0 0 90%;
+            scroll-snap-align: center;
+            border-radius: 10px;
+            transition: transform 0.3s ease;
+        }
+
+        .background_image:hover {
+            transform: scale(1.02);
+        }
+
+        /* Hide scrollbar for better aesthetics */
+        .image-scroller::-webkit-scrollbar {
+            display: none;
+        }
+
+
+        .scroller-wrapper {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: relative;
+        }
+
+        #prevBtn, #nextBtn {
+            background-color: #ffffffcc;
+            border: none;
+            font-size: 2rem;
+            cursor: pointer;
+            z-index: 10;
+            padding: 10px;
+            border-radius: 50%;
+            margin: 0 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.2);
+        }
+
+        #prevBtn:hover, #nextBtn:hover {
+            background-color: #ffffff;
+        }
+
+        nav{
+            background-color: #232F3E;
+            padding: 10px;
+            width: 100%;
+            display: flex;
+            align-items: center;
+            gap: 20px;
+        }
+        .header img {
+            width: 8%;
+            height: auto;
+        }
+
+        #all_image{
+            width:45px;
+        }
+
+        #india{
+            width: 1.5%;
+            padding:0%;
+        }
+
+       .search-form {
+            display: flex;
+            flex: 1;
+            height: 40px;
+        }
+
+        .search-form select {
+            padding: 8px;
+            border: none;
+            border-radius: 4px 0 0 4px;
+            outline: none;
+            background-color: #f3f3f3e0;
+            font-size: 14px;
+            width: 55px;;
+        }
+
+        .search-form input[type="search"] {
+            flex: 1;
+            padding: 8px;
+            border: none;
+            outline: none;
+            font-size: 14px;
+        }
+
+        .search-form button {
+            padding: 0 16px;
+            border: none;
+            background-color: #febd69;
+            cursor: pointer;
+            border-radius: 0 4px 4px 0;
+        }
+
+        #background_image{
+            width:90%;
+            margin-left: 5%;
+        }
+        #cart{
+            width:30px;
+        }
+
+        h5{
+            color:#f3f3f3;
+        }
+
+        p{
+            color:#f3f3f3;
+            font-family: Arial, sans-serif; 
+            margin-left: 10px;
+        }
+
+        #helloSection{
+            width:130px;
+        }
+
+        .search-form button:hover {
+            background-color: #f3a847;
+        }
+        #language_selection{
+            background-color: #131A22;
+            color: white;
+            border-color: #131A22;
+        }
+
+        div.headerdiv{
+        background-color: #131a22;
+    }
+
+    /*
+    div > h1{
+        color: aquamarine;
+    }
+
+    button:hover{
+        background-color: black;
+        color: white;
+    }
+
+    button:active{
+        background-color: red;
+    }
+
+    a:visited{
+        color: red;
+    }
+    p::before{
+        content:'';
+        display:inline-block;
+        width: 10px;
+        height:10px;
+        background-color: green;
+        border: none;
+        border-radius: 50px;
+    }
+    p::after{
+        content:'After';
+        background-color: grey;
+        color:black;
+        opacity: 0.5;
+        border: none;
+        border-radius: 50px;
+        margin: left 9px;
+        padding: 2px;
+    }
+    #chat::first-line{
+        color:red;
+    }*/

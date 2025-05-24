@@ -17,7 +17,7 @@
             align-items: center;
             gap: 20px;
         }
-
+        /* image Scroller */
         .image-scroller {
             display: flex;
             overflow-x: scroll;
@@ -34,6 +34,7 @@
             scroll-snap-align: center;
             border-radius: 10px;
             transition: transform 0.3s ease;
+            background-blend-mode: lighten;
         }
 
         .background_image:hover {
@@ -114,6 +115,9 @@
             outline: none;
             font-size: 14px;
         }
+        .search-form:hover{
+            border: 3px solid orange;
+        }
 
         .search-form button {
             padding: 0 16px;
@@ -156,44 +160,41 @@
 
         div.headerdiv{
         background-color: #131a22;
-    }
+        }
 
-    /*
-    div > h1{
-        color: aquamarine;
-    }
+        #Products-section {
+            position: absolute;          
+            top: 230px;                  
+            left: 100px;                 
+            width: 350px;
+            height: 450px;
+            background-color: white;    
+            z-index: 5;                 
+            border: none;
+            padding: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+        }
 
-    button:hover{
-        background-color: black;
-        color: white;
-    }
+        #heading{
+            font-family: Arial, sans-serif; 
+            font-size: 21px;
+            padding:15px 10px 10px 10px;
+        }
 
-    button:active{
-        background-color: red;
-    }
+        #product-1{
+            height: 120px;
+            width: 150px;
+            padding: 10px;
+        }
 
-    a:visited{
-        color: red;
-    }
-    p::before{
-        content:'';
-        display:inline-block;
-        width: 10px;
-        height:10px;
-        background-color: green;
-        border: none;
-        border-radius: 50px;
-    }
-    p::after{
-        content:'After';
-        background-color: grey;
-        color:black;
-        opacity: 0.5;
-        border: none;
-        border-radius: 50px;
-        margin: left 9px;
-        padding: 2px;
-    }
-    #chat::first-line{
-        color:red;
-    }*/
+        #product-2{
+            height: 120px;
+            width: 150px;
+            padding: 10px;
+        }
+
+        #label_1{
+            color: black;
+            padding: 0px 0px 0px 24px;
+            font-size: 12px;
+        }

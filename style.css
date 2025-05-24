@@ -7,6 +7,7 @@
         html, body {
             width: 100%;
             height: 100%;
+            background-color: rgba(247, 246, 246, 0.938);
         }
 
         .header {
@@ -164,7 +165,7 @@
 
         #Products-section {
             position: absolute;          
-            top: 230px;                  
+            top: 250px;                  
             left: 100px;                 
             width: 350px;
             height: 450px;
@@ -172,6 +173,114 @@
             z-index: 5;                 
             border: none;
             padding: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+        }
+
+        #Products-section-2 {
+            position: absolute;          
+            top: 250px;                  
+            left: 470px;                 
+            width: 350px;
+            height: 450px;
+            background-color: white;    
+            z-index: 5;                 
+            border: none;
+            padding: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+        }
+
+        #Products-section-3 {
+            position: absolute;          
+            top: 250px;                  
+            left: 840px;                 
+            width: 350px;
+            height: 450px;
+            background-color: white;    
+            z-index: 5;                 
+            border: none;
+            padding: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+        }
+
+        #Products-section-4 {
+             position: absolute;          
+            top: 850px;                  
+            left: 100px;                 
+            width: 350px;
+            height: 450px;
+            background-color: white;    
+            z-index: 5;                 
+            border: none;
+            padding: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+        }
+
+        #Products-section-5 {
+             position: absolute;          
+            top: 850px;                  
+            left: 470px;                 
+            width: 350px;
+            height: 450px;
+            background-color: white;    
+            z-index: 5;                 
+            border: none;
+            padding: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+        }
+
+        #Products-section-6 {
+             position: absolute;          
+            top: 850px;                  
+            left: 840px;                 
+            width: 350px;
+            height: 450px;
+            background-color: white;    
+            z-index: 5;                 
+            border: none;
+            padding: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+        }
+
+        #Products-section-7 {
+             position: absolute;          
+            top: 850px;                  
+            left: 1210px;                 
+            width: 350px;
+            height: 450px;
+            background-color: white;    
+            z-index: 5;                 
+            border: none;
+            padding: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+        }
+
+        #advertisement{
+            height: 130px;
+            width: 130px;
+            float: right;
+            padding: 0px 5px 20px 10px;
+        }
+
+        #Advertisement {
+            position: absolute;          
+            top: 250px;                  
+            left: 1210px;                 
+            width: 350px;
+            height: 160px;
+            background-color: white;    
+            z-index: 5;                 
+            border: none;
+            padding: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+        }
+
+        #advertisement-2 {
+            position: absolute;          
+            top: 420px;                  
+            left: 1210px;                 
+            width: 350px;
+            height: 280px;
+            border:none;
             box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
         }
 
@@ -197,4 +306,26 @@
             color: black;
             padding: 0px 0px 0px 24px;
             font-size: 12px;
+        }
+
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        .text1, .text2 {
+            display: inline-block;
+            width: 50%;
+            padding: 10px; 
+            font-family: Arial, sans-serif;
+            font-size: 13px;
+            padding: 10px 0px 0px 15px;
+        }
+
+        a{
+            font-family: Arial, sans-serif;
+            text-decoration: none;
+            padding: 50px 10px 10px 10px;
+            font-size: 13px;
+            color: rgb(13, 116, 180);
         }

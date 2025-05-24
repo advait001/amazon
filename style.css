@@ -302,6 +302,13 @@
             padding: 10px;
         }
 
+        #product-5{
+            margin: 0px 10px 0px 30px;  
+            height: 130px;
+            width: 100px;
+            padding: 0px 10px 0px 10px;
+        }
+
         #label_1{
             color: black;
             padding: 0px 0px 0px 24px;

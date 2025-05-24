@@ -179,7 +179,7 @@
         #Products-section-2 {
             position: absolute;          
             top: 250px;                  
-            left: 470px;                 
+            left: 465px;                 
             width: 350px;
             height: 450px;
             background-color: white;    
@@ -192,7 +192,7 @@
         #Products-section-3 {
             position: absolute;          
             top: 250px;                  
-            left: 840px;                 
+            left: 830px;                 
             width: 350px;
             height: 450px;
             background-color: white;    
@@ -218,7 +218,7 @@
         #Products-section-5 {
              position: absolute;          
             top: 850px;                  
-            left: 470px;                 
+            left: 465px;                 
             width: 350px;
             height: 450px;
             background-color: white;    
@@ -231,7 +231,7 @@
         #Products-section-6 {
              position: absolute;          
             top: 850px;                  
-            left: 840px;                 
+            left: 830px;                 
             width: 350px;
             height: 450px;
             background-color: white;    
@@ -244,7 +244,7 @@
         #Products-section-7 {
              position: absolute;          
             top: 850px;                  
-            left: 1210px;                 
+            left: 1195px;                 
             width: 350px;
             height: 450px;
             background-color: white;    
@@ -264,7 +264,7 @@
         #Advertisement {
             position: absolute;          
             top: 250px;                  
-            left: 1210px;                 
+            left: 1195px;                 
             width: 350px;
             height: 160px;
             background-color: white;    
@@ -277,7 +277,7 @@
         #advertisement-2 {
             position: absolute;          
             top: 420px;                  
-            left: 1210px;                 
+            left: 1195px;                 
             width: 350px;
             height: 280px;
             border:none;
